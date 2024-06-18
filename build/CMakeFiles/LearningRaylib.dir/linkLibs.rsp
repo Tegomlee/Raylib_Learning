@@ -1,0 +1,1 @@
+ "B:/Libraries/CPP/External/raylib-5.0_win64_mingw-w64/lib/libraylib.a" -lgdi32 -lwinmm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
