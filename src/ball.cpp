@@ -1,8 +1,7 @@
 #include "ball.hpp"
 
 #include "empty_hitbox.hpp"
-
-#include <iostream>
+#include "ball_position.hpp"
 
 Ball::Ball(Vector2 startingPosition, 
     Color colorOfObject, 
@@ -31,11 +30,9 @@ void Ball::Process(float deltaTime) {
   {
   case Collision::CollisionType::kLeftRight:
     direction_.x = -direction_.x;
-    std::cout << "Collision with left or right" << std::endl;
     break;
   case Collision::CollisionType::kTopBottom:
     direction_.y = -direction_.y;
-    std::cout << "Collision with top or bottom" << std::endl;
     break;
   default:
     break;
@@ -47,4 +44,6 @@ void Ball::Process(float deltaTime) {
 
   position_ = currentPosition;
   rectangle_ = {position_.x, position_.y, size_.x, size_.y};
+
+  BallPosition::SetPosition(position_);
 }

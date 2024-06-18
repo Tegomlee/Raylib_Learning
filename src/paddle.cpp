@@ -3,6 +3,7 @@
 #include <raymath.h>
 
 #include "constants.hpp"
+#include "ball_position.hpp"
 
 Paddle::Paddle(Vector2 startingPosition,
       Color colorOfObject, 
@@ -16,11 +17,24 @@ Paddle::Paddle(Vector2 startingPosition,
 void Paddle::Process(float deltaTime) {
   Vector2 currentPosition = position_;
 
-  if (IsKeyDown(KEY_UP)) {
-    currentPosition.y -= speed_ * deltaTime;
+  if (isComputer_) {
+    Vector2 targetPosition = BallPosition::GetPosition();
+    targetPosition.y += constant::PADDLE_SIZE.y;
+    
+    if (targetPosition.y > currentPosition.y) {
+      currentPosition.y += 1 * speed_ * deltaTime;
+    }
+    else {
+      currentPosition.y -= -1 * speed_ * deltaTime;
+    }
   }
-  if (IsKeyDown(KEY_DOWN)) {
-    currentPosition.y += speed_ * deltaTime;
+  else {
+    if (IsKeyDown(KEY_UP)) {
+      currentPosition.y -= speed_ * deltaTime;
+    }
+    if (IsKeyDown(KEY_DOWN)) {
+      currentPosition.y += speed_ * deltaTime;
+    }
   }
 
   currentPosition.y = Clamp(currentPosition.y, 0, constant::SCREEN_HEIGHT - rectangle_.height);

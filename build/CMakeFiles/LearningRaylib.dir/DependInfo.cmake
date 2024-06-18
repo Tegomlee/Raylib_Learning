@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "S:/Coding/CPP/Raylib_Learning/src/ball.cpp" "CMakeFiles/LearningRaylib.dir/src/ball.cpp.obj" "gcc" "CMakeFiles/LearningRaylib.dir/src/ball.cpp.obj.d"
+  "S:/Coding/CPP/Raylib_Learning/src/ball_position.cpp" "CMakeFiles/LearningRaylib.dir/src/ball_position.cpp.obj" "gcc" "CMakeFiles/LearningRaylib.dir/src/ball_position.cpp.obj.d"
   "S:/Coding/CPP/Raylib_Learning/src/collision.cpp" "CMakeFiles/LearningRaylib.dir/src/collision.cpp.obj" "gcc" "CMakeFiles/LearningRaylib.dir/src/collision.cpp.obj.d"
   "S:/Coding/CPP/Raylib_Learning/src/empty_hitbox.cpp" "CMakeFiles/LearningRaylib.dir/src/empty_hitbox.cpp.obj" "gcc" "CMakeFiles/LearningRaylib.dir/src/empty_hitbox.cpp.obj.d"
   "S:/Coding/CPP/Raylib_Learning/src/game_object.cpp" "CMakeFiles/LearningRaylib.dir/src/game_object.cpp.obj" "gcc" "CMakeFiles/LearningRaylib.dir/src/game_object.cpp.obj.d"

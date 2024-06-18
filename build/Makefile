@@ -165,6 +165,30 @@ src/ball.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearningRaylib.dir\build.make CMakeFiles/LearningRaylib.dir/src/ball.cpp.s
 .PHONY : src/ball.cpp.s
 
+src/ball_position.obj: src/ball_position.cpp.obj
+.PHONY : src/ball_position.obj
+
+# target to build an object file
+src/ball_position.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearningRaylib.dir\build.make CMakeFiles/LearningRaylib.dir/src/ball_position.cpp.obj
+.PHONY : src/ball_position.cpp.obj
+
+src/ball_position.i: src/ball_position.cpp.i
+.PHONY : src/ball_position.i
+
+# target to preprocess a source file
+src/ball_position.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearningRaylib.dir\build.make CMakeFiles/LearningRaylib.dir/src/ball_position.cpp.i
+.PHONY : src/ball_position.cpp.i
+
+src/ball_position.s: src/ball_position.cpp.s
+.PHONY : src/ball_position.s
+
+# target to generate assembly for a file
+src/ball_position.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearningRaylib.dir\build.make CMakeFiles/LearningRaylib.dir/src/ball_position.cpp.s
+.PHONY : src/ball_position.cpp.s
+
 src/collision.obj: src/collision.cpp.obj
 .PHONY : src/collision.obj
 
@@ -298,6 +322,9 @@ help:
 	@echo ... src/ball.obj
 	@echo ... src/ball.i
 	@echo ... src/ball.s
+	@echo ... src/ball_position.obj
+	@echo ... src/ball_position.i
+	@echo ... src/ball_position.s
 	@echo ... src/collision.obj
 	@echo ... src/collision.i
 	@echo ... src/collision.s

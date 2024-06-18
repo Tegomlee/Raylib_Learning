@@ -45,8 +45,16 @@ int main() {
       constant::PADDLE_SIZE,
       Collision::CollisionType::kPaddle,
       false,
-      250);
+      constant::PADDLE_SPEED);
   colliders.push_back(playerPaddle);
+
+  auto computerPaddle = std::make_shared<Paddle>(constant::PADDLE_COMPUTER_POSITION,
+      GREEN,
+      constant::PADDLE_SIZE,
+      Collision::CollisionType::kPaddle,
+      true,
+      constant::PADDLE_SPEED);
+  colliders.push_back(computerPaddle);
 
   Ball ball(constant::BALL_POSITION, 
       BLUE, 
@@ -62,6 +70,7 @@ int main() {
     // Update
     ball.Process(deltaTime);
     playerPaddle->Process(deltaTime);
+    computerPaddle->Process(deltaTime);
 
     // Render
     BeginDrawing();
@@ -69,6 +78,7 @@ int main() {
     
     ball.Render();
     playerPaddle->Render();
+    computerPaddle->Render();
 
     EndDrawing();
   }

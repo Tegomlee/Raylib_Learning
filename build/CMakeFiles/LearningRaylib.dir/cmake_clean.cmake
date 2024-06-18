@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/LearningRaylib.dir/src/ball.cpp.obj"
   "CMakeFiles/LearningRaylib.dir/src/ball.cpp.obj.d"
+  "CMakeFiles/LearningRaylib.dir/src/ball_position.cpp.obj"
+  "CMakeFiles/LearningRaylib.dir/src/ball_position.cpp.obj.d"
   "CMakeFiles/LearningRaylib.dir/src/collision.cpp.obj"
   "CMakeFiles/LearningRaylib.dir/src/collision.cpp.obj.d"
   "CMakeFiles/LearningRaylib.dir/src/empty_hitbox.cpp.obj"

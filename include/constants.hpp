@@ -23,5 +23,7 @@ namespace constant {
   // Paddle properties
   constexpr Vector2 PADDLE_SIZE = {50, 200};
   constexpr Vector2 PADDLE_PLAYER_POSITION = {30, SCREEN_HEIGHT / 2 - PADDLE_SIZE.y / 2};
-  constexpr Vector2 PADDLE_COMPUTER_POSITION = {SCREEN_WIDTH - 30, SCREEN_HEIGHT / 2 - PADDLE_SIZE.y / 2};
+  constexpr Vector2 PADDLE_COMPUTER_POSITION = {SCREEN_WIDTH - PADDLE_SIZE.x - 30, 
+      SCREEN_HEIGHT / 2 - PADDLE_SIZE.y / 2};
+  constexpr float PADDLE_SPEED = 250;
 }
