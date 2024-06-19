@@ -84,12 +84,7 @@
 			"sourceIndexes" : 
 			[
 				0,
-				1,
-				2,
-				3,
-				4,
-				5,
-				6
+				1
 			]
 		}
 	],
@@ -138,12 +133,7 @@
 			"sourceIndexes" : 
 			[
 				0,
-				1,
-				2,
-				3,
-				4,
-				5,
-				6
+				1
 			]
 		}
 	],
@@ -158,37 +148,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/ball_position.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "src/collision.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "src/empty_hitbox.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "src/game_object.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
 			"path" : "src/main.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "src/paddle.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

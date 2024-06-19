@@ -81,12 +81,12 @@ clean: CMakeFiles/clean-all.dir/clean
 CMakeFiles/LearningRaylib.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearningRaylib.dir\build.make CMakeFiles/LearningRaylib.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearningRaylib.dir\build.make CMakeFiles/LearningRaylib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=S:\Coding\CPP\Raylib_Learning\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target LearningRaylib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=S:\Coding\CPP\Raylib_Learning\build\CMakeFiles --progress-num=1,2,3 "Built target LearningRaylib"
 .PHONY : CMakeFiles/LearningRaylib.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/LearningRaylib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start S:\Coding\CPP\Raylib_Learning\build\CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start S:\Coding\CPP\Raylib_Learning\build\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/LearningRaylib.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start S:\Coding\CPP\Raylib_Learning\build\CMakeFiles 0
 .PHONY : CMakeFiles/LearningRaylib.dir/rule
@@ -107,7 +107,7 @@ CMakeFiles/LearningRaylib.dir/clean:
 CMakeFiles/clean-all.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\clean-all.dir\build.make CMakeFiles/clean-all.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\clean-all.dir\build.make CMakeFiles/clean-all.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=S:\Coding\CPP\Raylib_Learning\build\CMakeFiles --progress-num=9 "Built target clean-all"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=S:\Coding\CPP\Raylib_Learning\build\CMakeFiles --progress-num=4 "Built target clean-all"
 .PHONY : CMakeFiles/clean-all.dir/all
 
 # Build rule for subdir invocation for target.

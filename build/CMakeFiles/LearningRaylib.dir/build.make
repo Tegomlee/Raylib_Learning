@@ -83,71 +83,11 @@ CMakeFiles/LearningRaylib.dir/src/ball.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LearningRaylib.dir/src/ball.cpp.s"
 	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S S:\Coding\CPP\Raylib_Learning\src\ball.cpp -o CMakeFiles\LearningRaylib.dir\src\ball.cpp.s
 
-CMakeFiles/LearningRaylib.dir/src/ball_position.cpp.obj: CMakeFiles/LearningRaylib.dir/flags.make
-CMakeFiles/LearningRaylib.dir/src/ball_position.cpp.obj: CMakeFiles/LearningRaylib.dir/includes_CXX.rsp
-CMakeFiles/LearningRaylib.dir/src/ball_position.cpp.obj: S:/Coding/CPP/Raylib_Learning/src/ball_position.cpp
-CMakeFiles/LearningRaylib.dir/src/ball_position.cpp.obj: CMakeFiles/LearningRaylib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=S:\Coding\CPP\Raylib_Learning\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/LearningRaylib.dir/src/ball_position.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LearningRaylib.dir/src/ball_position.cpp.obj -MF CMakeFiles\LearningRaylib.dir\src\ball_position.cpp.obj.d -o CMakeFiles\LearningRaylib.dir\src\ball_position.cpp.obj -c S:\Coding\CPP\Raylib_Learning\src\ball_position.cpp
-
-CMakeFiles/LearningRaylib.dir/src/ball_position.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LearningRaylib.dir/src/ball_position.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E S:\Coding\CPP\Raylib_Learning\src\ball_position.cpp > CMakeFiles\LearningRaylib.dir\src\ball_position.cpp.i
-
-CMakeFiles/LearningRaylib.dir/src/ball_position.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LearningRaylib.dir/src/ball_position.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S S:\Coding\CPP\Raylib_Learning\src\ball_position.cpp -o CMakeFiles\LearningRaylib.dir\src\ball_position.cpp.s
-
-CMakeFiles/LearningRaylib.dir/src/collision.cpp.obj: CMakeFiles/LearningRaylib.dir/flags.make
-CMakeFiles/LearningRaylib.dir/src/collision.cpp.obj: CMakeFiles/LearningRaylib.dir/includes_CXX.rsp
-CMakeFiles/LearningRaylib.dir/src/collision.cpp.obj: S:/Coding/CPP/Raylib_Learning/src/collision.cpp
-CMakeFiles/LearningRaylib.dir/src/collision.cpp.obj: CMakeFiles/LearningRaylib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=S:\Coding\CPP\Raylib_Learning\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/LearningRaylib.dir/src/collision.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LearningRaylib.dir/src/collision.cpp.obj -MF CMakeFiles\LearningRaylib.dir\src\collision.cpp.obj.d -o CMakeFiles\LearningRaylib.dir\src\collision.cpp.obj -c S:\Coding\CPP\Raylib_Learning\src\collision.cpp
-
-CMakeFiles/LearningRaylib.dir/src/collision.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LearningRaylib.dir/src/collision.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E S:\Coding\CPP\Raylib_Learning\src\collision.cpp > CMakeFiles\LearningRaylib.dir\src\collision.cpp.i
-
-CMakeFiles/LearningRaylib.dir/src/collision.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LearningRaylib.dir/src/collision.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S S:\Coding\CPP\Raylib_Learning\src\collision.cpp -o CMakeFiles\LearningRaylib.dir\src\collision.cpp.s
-
-CMakeFiles/LearningRaylib.dir/src/empty_hitbox.cpp.obj: CMakeFiles/LearningRaylib.dir/flags.make
-CMakeFiles/LearningRaylib.dir/src/empty_hitbox.cpp.obj: CMakeFiles/LearningRaylib.dir/includes_CXX.rsp
-CMakeFiles/LearningRaylib.dir/src/empty_hitbox.cpp.obj: S:/Coding/CPP/Raylib_Learning/src/empty_hitbox.cpp
-CMakeFiles/LearningRaylib.dir/src/empty_hitbox.cpp.obj: CMakeFiles/LearningRaylib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=S:\Coding\CPP\Raylib_Learning\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/LearningRaylib.dir/src/empty_hitbox.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LearningRaylib.dir/src/empty_hitbox.cpp.obj -MF CMakeFiles\LearningRaylib.dir\src\empty_hitbox.cpp.obj.d -o CMakeFiles\LearningRaylib.dir\src\empty_hitbox.cpp.obj -c S:\Coding\CPP\Raylib_Learning\src\empty_hitbox.cpp
-
-CMakeFiles/LearningRaylib.dir/src/empty_hitbox.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LearningRaylib.dir/src/empty_hitbox.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E S:\Coding\CPP\Raylib_Learning\src\empty_hitbox.cpp > CMakeFiles\LearningRaylib.dir\src\empty_hitbox.cpp.i
-
-CMakeFiles/LearningRaylib.dir/src/empty_hitbox.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LearningRaylib.dir/src/empty_hitbox.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S S:\Coding\CPP\Raylib_Learning\src\empty_hitbox.cpp -o CMakeFiles\LearningRaylib.dir\src\empty_hitbox.cpp.s
-
-CMakeFiles/LearningRaylib.dir/src/game_object.cpp.obj: CMakeFiles/LearningRaylib.dir/flags.make
-CMakeFiles/LearningRaylib.dir/src/game_object.cpp.obj: CMakeFiles/LearningRaylib.dir/includes_CXX.rsp
-CMakeFiles/LearningRaylib.dir/src/game_object.cpp.obj: S:/Coding/CPP/Raylib_Learning/src/game_object.cpp
-CMakeFiles/LearningRaylib.dir/src/game_object.cpp.obj: CMakeFiles/LearningRaylib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=S:\Coding\CPP\Raylib_Learning\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/LearningRaylib.dir/src/game_object.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LearningRaylib.dir/src/game_object.cpp.obj -MF CMakeFiles\LearningRaylib.dir\src\game_object.cpp.obj.d -o CMakeFiles\LearningRaylib.dir\src\game_object.cpp.obj -c S:\Coding\CPP\Raylib_Learning\src\game_object.cpp
-
-CMakeFiles/LearningRaylib.dir/src/game_object.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LearningRaylib.dir/src/game_object.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E S:\Coding\CPP\Raylib_Learning\src\game_object.cpp > CMakeFiles\LearningRaylib.dir\src\game_object.cpp.i
-
-CMakeFiles/LearningRaylib.dir/src/game_object.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LearningRaylib.dir/src/game_object.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S S:\Coding\CPP\Raylib_Learning\src\game_object.cpp -o CMakeFiles\LearningRaylib.dir\src\game_object.cpp.s
-
 CMakeFiles/LearningRaylib.dir/src/main.cpp.obj: CMakeFiles/LearningRaylib.dir/flags.make
 CMakeFiles/LearningRaylib.dir/src/main.cpp.obj: CMakeFiles/LearningRaylib.dir/includes_CXX.rsp
 CMakeFiles/LearningRaylib.dir/src/main.cpp.obj: S:/Coding/CPP/Raylib_Learning/src/main.cpp
 CMakeFiles/LearningRaylib.dir/src/main.cpp.obj: CMakeFiles/LearningRaylib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=S:\Coding\CPP\Raylib_Learning\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/LearningRaylib.dir/src/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=S:\Coding\CPP\Raylib_Learning\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/LearningRaylib.dir/src/main.cpp.obj"
 	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LearningRaylib.dir/src/main.cpp.obj -MF CMakeFiles\LearningRaylib.dir\src\main.cpp.obj.d -o CMakeFiles\LearningRaylib.dir\src\main.cpp.obj -c S:\Coding\CPP\Raylib_Learning\src\main.cpp
 
 CMakeFiles/LearningRaylib.dir/src/main.cpp.i: cmake_force
@@ -158,47 +98,22 @@ CMakeFiles/LearningRaylib.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LearningRaylib.dir/src/main.cpp.s"
 	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S S:\Coding\CPP\Raylib_Learning\src\main.cpp -o CMakeFiles\LearningRaylib.dir\src\main.cpp.s
 
-CMakeFiles/LearningRaylib.dir/src/paddle.cpp.obj: CMakeFiles/LearningRaylib.dir/flags.make
-CMakeFiles/LearningRaylib.dir/src/paddle.cpp.obj: CMakeFiles/LearningRaylib.dir/includes_CXX.rsp
-CMakeFiles/LearningRaylib.dir/src/paddle.cpp.obj: S:/Coding/CPP/Raylib_Learning/src/paddle.cpp
-CMakeFiles/LearningRaylib.dir/src/paddle.cpp.obj: CMakeFiles/LearningRaylib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=S:\Coding\CPP\Raylib_Learning\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/LearningRaylib.dir/src/paddle.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LearningRaylib.dir/src/paddle.cpp.obj -MF CMakeFiles\LearningRaylib.dir\src\paddle.cpp.obj.d -o CMakeFiles\LearningRaylib.dir\src\paddle.cpp.obj -c S:\Coding\CPP\Raylib_Learning\src\paddle.cpp
-
-CMakeFiles/LearningRaylib.dir/src/paddle.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LearningRaylib.dir/src/paddle.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E S:\Coding\CPP\Raylib_Learning\src\paddle.cpp > CMakeFiles\LearningRaylib.dir\src\paddle.cpp.i
-
-CMakeFiles/LearningRaylib.dir/src/paddle.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LearningRaylib.dir/src/paddle.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S S:\Coding\CPP\Raylib_Learning\src\paddle.cpp -o CMakeFiles\LearningRaylib.dir\src\paddle.cpp.s
-
 # Object files for target LearningRaylib
 LearningRaylib_OBJECTS = \
 "CMakeFiles/LearningRaylib.dir/src/ball.cpp.obj" \
-"CMakeFiles/LearningRaylib.dir/src/ball_position.cpp.obj" \
-"CMakeFiles/LearningRaylib.dir/src/collision.cpp.obj" \
-"CMakeFiles/LearningRaylib.dir/src/empty_hitbox.cpp.obj" \
-"CMakeFiles/LearningRaylib.dir/src/game_object.cpp.obj" \
-"CMakeFiles/LearningRaylib.dir/src/main.cpp.obj" \
-"CMakeFiles/LearningRaylib.dir/src/paddle.cpp.obj"
+"CMakeFiles/LearningRaylib.dir/src/main.cpp.obj"
 
 # External object files for target LearningRaylib
 LearningRaylib_EXTERNAL_OBJECTS =
 
 LearningRaylib.exe: CMakeFiles/LearningRaylib.dir/src/ball.cpp.obj
-LearningRaylib.exe: CMakeFiles/LearningRaylib.dir/src/ball_position.cpp.obj
-LearningRaylib.exe: CMakeFiles/LearningRaylib.dir/src/collision.cpp.obj
-LearningRaylib.exe: CMakeFiles/LearningRaylib.dir/src/empty_hitbox.cpp.obj
-LearningRaylib.exe: CMakeFiles/LearningRaylib.dir/src/game_object.cpp.obj
 LearningRaylib.exe: CMakeFiles/LearningRaylib.dir/src/main.cpp.obj
-LearningRaylib.exe: CMakeFiles/LearningRaylib.dir/src/paddle.cpp.obj
 LearningRaylib.exe: CMakeFiles/LearningRaylib.dir/build.make
 LearningRaylib.exe: B:/Libraries/CPP/External/raylib-5.0_win64_mingw-w64/lib/libraylib.a
 LearningRaylib.exe: CMakeFiles/LearningRaylib.dir/linkLibs.rsp
 LearningRaylib.exe: CMakeFiles/LearningRaylib.dir/objects1.rsp
 LearningRaylib.exe: CMakeFiles/LearningRaylib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=S:\Coding\CPP\Raylib_Learning\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable LearningRaylib.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=S:\Coding\CPP\Raylib_Learning\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable LearningRaylib.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\LearningRaylib.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

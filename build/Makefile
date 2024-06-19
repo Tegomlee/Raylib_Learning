@@ -165,102 +165,6 @@ src/ball.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearningRaylib.dir\build.make CMakeFiles/LearningRaylib.dir/src/ball.cpp.s
 .PHONY : src/ball.cpp.s
 
-src/ball_position.obj: src/ball_position.cpp.obj
-.PHONY : src/ball_position.obj
-
-# target to build an object file
-src/ball_position.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearningRaylib.dir\build.make CMakeFiles/LearningRaylib.dir/src/ball_position.cpp.obj
-.PHONY : src/ball_position.cpp.obj
-
-src/ball_position.i: src/ball_position.cpp.i
-.PHONY : src/ball_position.i
-
-# target to preprocess a source file
-src/ball_position.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearningRaylib.dir\build.make CMakeFiles/LearningRaylib.dir/src/ball_position.cpp.i
-.PHONY : src/ball_position.cpp.i
-
-src/ball_position.s: src/ball_position.cpp.s
-.PHONY : src/ball_position.s
-
-# target to generate assembly for a file
-src/ball_position.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearningRaylib.dir\build.make CMakeFiles/LearningRaylib.dir/src/ball_position.cpp.s
-.PHONY : src/ball_position.cpp.s
-
-src/collision.obj: src/collision.cpp.obj
-.PHONY : src/collision.obj
-
-# target to build an object file
-src/collision.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearningRaylib.dir\build.make CMakeFiles/LearningRaylib.dir/src/collision.cpp.obj
-.PHONY : src/collision.cpp.obj
-
-src/collision.i: src/collision.cpp.i
-.PHONY : src/collision.i
-
-# target to preprocess a source file
-src/collision.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearningRaylib.dir\build.make CMakeFiles/LearningRaylib.dir/src/collision.cpp.i
-.PHONY : src/collision.cpp.i
-
-src/collision.s: src/collision.cpp.s
-.PHONY : src/collision.s
-
-# target to generate assembly for a file
-src/collision.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearningRaylib.dir\build.make CMakeFiles/LearningRaylib.dir/src/collision.cpp.s
-.PHONY : src/collision.cpp.s
-
-src/empty_hitbox.obj: src/empty_hitbox.cpp.obj
-.PHONY : src/empty_hitbox.obj
-
-# target to build an object file
-src/empty_hitbox.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearningRaylib.dir\build.make CMakeFiles/LearningRaylib.dir/src/empty_hitbox.cpp.obj
-.PHONY : src/empty_hitbox.cpp.obj
-
-src/empty_hitbox.i: src/empty_hitbox.cpp.i
-.PHONY : src/empty_hitbox.i
-
-# target to preprocess a source file
-src/empty_hitbox.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearningRaylib.dir\build.make CMakeFiles/LearningRaylib.dir/src/empty_hitbox.cpp.i
-.PHONY : src/empty_hitbox.cpp.i
-
-src/empty_hitbox.s: src/empty_hitbox.cpp.s
-.PHONY : src/empty_hitbox.s
-
-# target to generate assembly for a file
-src/empty_hitbox.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearningRaylib.dir\build.make CMakeFiles/LearningRaylib.dir/src/empty_hitbox.cpp.s
-.PHONY : src/empty_hitbox.cpp.s
-
-src/game_object.obj: src/game_object.cpp.obj
-.PHONY : src/game_object.obj
-
-# target to build an object file
-src/game_object.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearningRaylib.dir\build.make CMakeFiles/LearningRaylib.dir/src/game_object.cpp.obj
-.PHONY : src/game_object.cpp.obj
-
-src/game_object.i: src/game_object.cpp.i
-.PHONY : src/game_object.i
-
-# target to preprocess a source file
-src/game_object.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearningRaylib.dir\build.make CMakeFiles/LearningRaylib.dir/src/game_object.cpp.i
-.PHONY : src/game_object.cpp.i
-
-src/game_object.s: src/game_object.cpp.s
-.PHONY : src/game_object.s
-
-# target to generate assembly for a file
-src/game_object.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearningRaylib.dir\build.make CMakeFiles/LearningRaylib.dir/src/game_object.cpp.s
-.PHONY : src/game_object.cpp.s
-
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
@@ -285,30 +189,6 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearningRaylib.dir\build.make CMakeFiles/LearningRaylib.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/paddle.obj: src/paddle.cpp.obj
-.PHONY : src/paddle.obj
-
-# target to build an object file
-src/paddle.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearningRaylib.dir\build.make CMakeFiles/LearningRaylib.dir/src/paddle.cpp.obj
-.PHONY : src/paddle.cpp.obj
-
-src/paddle.i: src/paddle.cpp.i
-.PHONY : src/paddle.i
-
-# target to preprocess a source file
-src/paddle.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearningRaylib.dir\build.make CMakeFiles/LearningRaylib.dir/src/paddle.cpp.i
-.PHONY : src/paddle.cpp.i
-
-src/paddle.s: src/paddle.cpp.s
-.PHONY : src/paddle.s
-
-# target to generate assembly for a file
-src/paddle.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearningRaylib.dir\build.make CMakeFiles/LearningRaylib.dir/src/paddle.cpp.s
-.PHONY : src/paddle.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -322,24 +202,9 @@ help:
 	@echo ... src/ball.obj
 	@echo ... src/ball.i
 	@echo ... src/ball.s
-	@echo ... src/ball_position.obj
-	@echo ... src/ball_position.i
-	@echo ... src/ball_position.s
-	@echo ... src/collision.obj
-	@echo ... src/collision.i
-	@echo ... src/collision.s
-	@echo ... src/empty_hitbox.obj
-	@echo ... src/empty_hitbox.i
-	@echo ... src/empty_hitbox.s
-	@echo ... src/game_object.obj
-	@echo ... src/game_object.i
-	@echo ... src/game_object.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
-	@echo ... src/paddle.obj
-	@echo ... src/paddle.i
-	@echo ... src/paddle.s
 .PHONY : help
 
 
