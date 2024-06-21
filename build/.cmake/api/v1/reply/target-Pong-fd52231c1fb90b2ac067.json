@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "LearningRaylib.exe"
+			"path" : "Pong.exe"
 		},
 		{
-			"path" : "LearningRaylib.pdb"
+			"path" : "Pong.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -58,7 +58,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -std=gnu++20"
+					"fragment" : "-std=gnu++20"
 				}
 			],
 			"includes" : 
@@ -90,22 +90,18 @@
 			]
 		}
 	],
-	"id" : "LearningRaylib::@6890427a1f51a3e7e1df",
+	"id" : "Pong::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
 		[
-			{
-				"fragment" : "-g",
-				"role" : "flags"
-			},
 			{
 				"fragment" : "",
 				"role" : "flags"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "B:/Libraries/CPP/External/raylib-5.0_win64_mingw-w64/lib/libraylib.a",
+				"fragment" : "B:\\Libraries\\CPP\\External\\raylib-5.0_win64_mingw-w64\\lib\\libraylib.a",
 				"role" : "libraries"
 			},
 			{
@@ -125,8 +121,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "LearningRaylib",
-	"nameOnDisk" : "LearningRaylib.exe",
+	"name" : "Pong",
+	"nameOnDisk" : "Pong.exe",
 	"paths" : 
 	{
 		"build" : ".",

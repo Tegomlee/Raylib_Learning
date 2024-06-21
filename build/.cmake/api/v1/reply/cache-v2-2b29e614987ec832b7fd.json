@@ -39,11 +39,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "Choose the type of build, options are: None Debug Release RelWithDebInfo MinSizeRel ..."
 				}
 			],
 			"type" : "STRING",
-			"value" : "Debug"
+			"value" : ""
 		},
 		{
 			"name" : "CMAKE_CACHEFILE_DIR",
@@ -554,18 +554,6 @@
 			"value" : ""
 		},
 		{
-			"name" : "CMAKE_EXPORT_COMPILE_COMMANDS",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
-				}
-			],
-			"type" : "BOOL",
-			"value" : "TRUE"
-		},
-		{
 			"name" : "CMAKE_EXTRA_GENERATOR",
 			"properties" : 
 			[
@@ -599,7 +587,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "Unix Makefiles"
+			"value" : "MinGW Makefiles"
 		},
 		{
 			"name" : "CMAKE_GENERATOR_INSTANCE",
@@ -671,7 +659,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/LearningRaylib"
+			"value" : "C:/Program Files (x86)/Pong"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -699,11 +687,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "make program"
+					"value" : "Path to a program."
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/PROGRA~2/GnuWin32/bin/make.exe"
+			"value" : "C:/msys64/mingw64/bin/mingw32-make.exe"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -891,7 +879,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "LearningRaylib"
+			"value" : "Pong"
 		},
 		{
 			"name" : "CMAKE_PROJECT_VERSION",
@@ -1346,7 +1334,7 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "LearningRaylib_BINARY_DIR",
+			"name" : "Pong_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1358,7 +1346,7 @@
 			"value" : "S:/Coding/CPP/Raylib_Learning/build"
 		},
 		{
-			"name" : "LearningRaylib_IS_TOP_LEVEL",
+			"name" : "Pong_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1370,7 +1358,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "LearningRaylib_SOURCE_DIR",
+			"name" : "Pong_SOURCE_DIR",
 			"properties" : 
 			[
 				{

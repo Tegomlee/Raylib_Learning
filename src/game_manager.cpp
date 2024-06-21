@@ -84,6 +84,28 @@ void GameManager::HandleBallCollisions() {
     ball_.Reset();
   }
   // --------
+
+  // Get the data for each paddle to compare for collisions
+  Vector2 paddle_size = constant::paddle_size;
+  Vector2 player_paddle_position = player_paddle_.GetPosition();
+  Vector2 computuer_paddle_position = computer_paddle_.GetPosition();
+
+  Rectangle player_paddle_rect = {player_paddle_position.x, 
+      player_paddle_position.y, 
+      paddle_size.x, 
+      paddle_size.y};
+  Rectangle computer_paddle_rect = {computuer_paddle_position.x,
+      computuer_paddle_position.y,
+      paddle_size.x,
+      paddle_size.y};
+  // --------
+
+  // Check for collision between the ball and the paddles
+  if (CheckCollisionCircleRec(ball_.GetPosition(), ball_.GetRadius(), player_paddle_rect) || 
+      CheckCollisionCircleRec(ball_.GetPosition(), ball_.GetRadius(), computer_paddle_rect)) {
+    ball_.BounceX();
+  }
+  // --------
 }
 
 void GameManager::UpdateScore(ScoreType score_type) {

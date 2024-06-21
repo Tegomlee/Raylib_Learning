@@ -20,8 +20,9 @@ CMAKE_ADDR2LINE:FILEPATH=C:/msys64/mingw64/bin/addr2line.exe
 //Path to a program.
 CMAKE_AR:FILEPATH=C:/msys64/mingw64/bin/ar.exe
 
-//No help, variable specified on the command line.
-CMAKE_BUILD_TYPE:STRING=Debug
+//Choose the type of build, options are: None Debug Release RelWithDebInfo
+// MinSizeRel ...
+CMAKE_BUILD_TYPE:STRING=
 
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
@@ -102,9 +103,6 @@ CMAKE_EXE_LINKER_FLAGS_RELEASE:STRING=
 //Flags used by the linker during RELWITHDEBINFO builds.
 CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
-//No help, variable specified on the command line.
-CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE
-
 //Value Computed by CMake.
 CMAKE_FIND_PACKAGE_REDIRECTS_DIR:STATIC=S:/Coding/CPP/Raylib_Learning/build/CMakeFiles/pkgRedirects
 
@@ -112,13 +110,13 @@ CMAKE_FIND_PACKAGE_REDIRECTS_DIR:STATIC=S:/Coding/CPP/Raylib_Learning/build/CMak
 CMAKE_GNUtoMS:BOOL=OFF
 
 //Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/LearningRaylib
+CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/Pong
 
 //Path to a program.
 CMAKE_LINKER:FILEPATH=C:/msys64/mingw64/bin/ld.exe
 
-//make program
-CMAKE_MAKE_PROGRAM:FILEPATH=C:/PROGRA~2/GnuWin32/bin/make.exe
+//Path to a program.
+CMAKE_MAKE_PROGRAM:FILEPATH=C:/msys64/mingw64/bin/mingw32-make.exe
 
 //Flags used by the linker during the creation of modules during
 // all build types.
@@ -156,7 +154,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=LearningRaylib
+CMAKE_PROJECT_NAME:STATIC=Pong
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION:STATIC=1.0
@@ -257,13 +255,13 @@ CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
-LearningRaylib_BINARY_DIR:STATIC=S:/Coding/CPP/Raylib_Learning/build
+Pong_BINARY_DIR:STATIC=S:/Coding/CPP/Raylib_Learning/build
 
 //Value Computed by CMake
-LearningRaylib_IS_TOP_LEVEL:STATIC=ON
+Pong_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-LearningRaylib_SOURCE_DIR:STATIC=S:/Coding/CPP/Raylib_Learning
+Pong_SOURCE_DIR:STATIC=S:/Coding/CPP/Raylib_Learning
 
 
 ########################
@@ -345,7 +343,7 @@ CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //Name of external makefile project generator.
 CMAKE_EXTRA_GENERATOR:INTERNAL=
 //Name of generator.
-CMAKE_GENERATOR:INTERNAL=Unix Makefiles
+CMAKE_GENERATOR:INTERNAL=MinGW Makefiles
 //Generator instance identifier.
 CMAKE_GENERATOR_INSTANCE:INTERNAL=
 //Name of generator platform.

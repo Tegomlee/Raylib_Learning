@@ -2,7 +2,7 @@
 cmake_minimum_required(VERSION 3.10)
 
 # Project name
-project(LearningRaylib VERSION 1.0)
+project("Pong" VERSION 1.0)
 
 # C++ standard
 set(CMAKE_CXX_STANDARD 20)

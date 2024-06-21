@@ -6,7 +6,7 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"jsonFile" : "directory-.-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.10"
@@ -20,7 +20,7 @@
 					]
 				}
 			],
-			"name" : "Debug",
+			"name" : "",
 			"projects" : 
 			[
 				{
@@ -28,7 +28,7 @@
 					[
 						0
 					],
-					"name" : "LearningRaylib",
+					"name" : "Pong",
 					"targetIndexes" : 
 					[
 						0,
@@ -40,15 +40,15 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "LearningRaylib::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-LearningRaylib-Debug-d41d9a8e8ca4a5b9bd53.json",
-					"name" : "LearningRaylib",
+					"id" : "Pong::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Pong-fd52231c1fb90b2ac067.json",
+					"name" : "Pong",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "clean-all::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-clean-all-Debug-5d889686ac0a5a8c3ef3.json",
+					"jsonFile" : "target-clean-all-5d889686ac0a5a8c3ef3.json",
 					"name" : "clean-all",
 					"projectIndex" : 0
 				}

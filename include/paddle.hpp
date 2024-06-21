@@ -12,6 +12,8 @@ class Paddle {
 
     void SetTargetPosition(Vector2 target_position);
 
+    Vector2 GetPosition() const;
+
   private:
     void PlayerInput(float delta_time);
     void ComputerInput(float delta_time);

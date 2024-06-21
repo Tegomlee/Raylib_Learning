@@ -2,6 +2,8 @@
 
 #include "constants.hpp"
 
+#include <raymath.h>
+
 Paddle::Paddle(Vector2 starting_position, Vector2 size, Color color, float speed, bool is_computer) 
     : position_(starting_position),
     size_(size),
@@ -19,6 +21,8 @@ void Paddle::Process() {
   else {
     PlayerInput(delta_time);
   }
+
+  position_.y = Clamp(position_.y, 0, constant::height - constant::paddle_size.y);
 }
 
 void Paddle::Render() {
@@ -27,6 +31,10 @@ void Paddle::Render() {
 
 void Paddle::SetTargetPosition(Vector2 target_position) {
   target_position_ = {position_.x, target_position.y};
+}
+
+Vector2 Paddle::GetPosition() const {
+  return position_;
 }
 
 void Paddle::PlayerInput(float delta_time) {

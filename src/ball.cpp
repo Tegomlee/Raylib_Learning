@@ -1,6 +1,6 @@
 #include "ball.hpp"
 
-#include <iostream>
+#include "constants.hpp"
 
 Ball::Ball(Vector2 starting_position, float radius, Color color, float speed) 
     : position_(starting_position), 
@@ -30,6 +30,7 @@ float Ball::GetRadius() const {
 
 void Ball::BounceX() {
   direction_.x = -direction_.x;
+  speed_ += constant::ball_speed_increase_multiplier;
 }
 
 void Ball::BounceY() {
@@ -38,4 +39,6 @@ void Ball::BounceY() {
 
 void Ball::Reset() {
   position_ = {static_cast<float>(GetScreenWidth()) / 2, static_cast<float>(GetScreenHeight()) / 2};
+  speed_ = constant::ball_speed;
+  direction_.x = -direction_.x;
 }
