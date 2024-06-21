@@ -1,23 +1,29 @@
 #include <raylib.h>
 
-#include "ball.hpp"
+#include "game_manager.hpp"
 
 int main() {
   InitWindow(1280, 720, "Test");
 
   SetTargetFPS(60);
 
-  Ball ball;
+  GameManager game_manager;
 
   while (!WindowShouldClose()) {
+    // Process logic
+    game_manager.ProcessObjects();
+    // --------
+
+    // Render
     BeginDrawing();
     ClearBackground(RAYWHITE);
 
     DrawFPS(0,0);
 
-    ball.PrintScreenSize();
+    game_manager.RenderObjects();
 
     EndDrawing();
+    // --------
   }
 
   CloseWindow();

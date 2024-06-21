@@ -1,8 +1,12 @@
 file(REMOVE_RECURSE
   "CMakeFiles/LearningRaylib.dir/src/ball.cpp.obj"
   "CMakeFiles/LearningRaylib.dir/src/ball.cpp.obj.d"
+  "CMakeFiles/LearningRaylib.dir/src/game_manager.cpp.obj"
+  "CMakeFiles/LearningRaylib.dir/src/game_manager.cpp.obj.d"
   "CMakeFiles/LearningRaylib.dir/src/main.cpp.obj"
   "CMakeFiles/LearningRaylib.dir/src/main.cpp.obj.d"
+  "CMakeFiles/LearningRaylib.dir/src/paddle.cpp.obj"
+  "CMakeFiles/LearningRaylib.dir/src/paddle.cpp.obj.d"
   "LearningRaylib.exe"
   "LearningRaylib.exe.manifest"
   "LearningRaylib.pdb"
