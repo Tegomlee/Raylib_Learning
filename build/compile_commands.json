@@ -1,25 +1,25 @@
 [
 {
   "directory": "S:/Coding/CPP/Raylib_Learning/build",
-  "command": "C:/msys64/mingw64/bin/g++.exe  @CMakeFiles/Pong.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles/Pong.dir/src/ball.cpp.obj -c S:/Coding/CPP/Raylib_Learning/src/ball.cpp",
+  "command": "C:/msys64/mingw64/bin/g++.exe  @CMakeFiles/Pong.dir/includes_CXX.rsp  -static-libgcc -static-libstdc++ -static -g -std=gnu++20 -o CMakeFiles/Pong.dir/src/ball.cpp.obj -c S:/Coding/CPP/Raylib_Learning/src/ball.cpp",
   "file": "S:/Coding/CPP/Raylib_Learning/src/ball.cpp",
   "output": "CMakeFiles/Pong.dir/src/ball.cpp.obj"
 },
 {
   "directory": "S:/Coding/CPP/Raylib_Learning/build",
-  "command": "C:/msys64/mingw64/bin/g++.exe  @CMakeFiles/Pong.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles/Pong.dir/src/game_manager.cpp.obj -c S:/Coding/CPP/Raylib_Learning/src/game_manager.cpp",
+  "command": "C:/msys64/mingw64/bin/g++.exe  @CMakeFiles/Pong.dir/includes_CXX.rsp  -static-libgcc -static-libstdc++ -static -g -std=gnu++20 -o CMakeFiles/Pong.dir/src/game_manager.cpp.obj -c S:/Coding/CPP/Raylib_Learning/src/game_manager.cpp",
   "file": "S:/Coding/CPP/Raylib_Learning/src/game_manager.cpp",
   "output": "CMakeFiles/Pong.dir/src/game_manager.cpp.obj"
 },
 {
   "directory": "S:/Coding/CPP/Raylib_Learning/build",
-  "command": "C:/msys64/mingw64/bin/g++.exe  @CMakeFiles/Pong.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles/Pong.dir/src/main.cpp.obj -c S:/Coding/CPP/Raylib_Learning/src/main.cpp",
+  "command": "C:/msys64/mingw64/bin/g++.exe  @CMakeFiles/Pong.dir/includes_CXX.rsp  -static-libgcc -static-libstdc++ -static -g -std=gnu++20 -o CMakeFiles/Pong.dir/src/main.cpp.obj -c S:/Coding/CPP/Raylib_Learning/src/main.cpp",
   "file": "S:/Coding/CPP/Raylib_Learning/src/main.cpp",
   "output": "CMakeFiles/Pong.dir/src/main.cpp.obj"
 },
 {
   "directory": "S:/Coding/CPP/Raylib_Learning/build",
-  "command": "C:/msys64/mingw64/bin/g++.exe  @CMakeFiles/Pong.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles/Pong.dir/src/paddle.cpp.obj -c S:/Coding/CPP/Raylib_Learning/src/paddle.cpp",
+  "command": "C:/msys64/mingw64/bin/g++.exe  @CMakeFiles/Pong.dir/includes_CXX.rsp  -static-libgcc -static-libstdc++ -static -g -std=gnu++20 -o CMakeFiles/Pong.dir/src/paddle.cpp.obj -c S:/Coding/CPP/Raylib_Learning/src/paddle.cpp",
   "file": "S:/Coding/CPP/Raylib_Learning/src/paddle.cpp",
   "output": "CMakeFiles/Pong.dir/src/paddle.cpp.obj"
 }

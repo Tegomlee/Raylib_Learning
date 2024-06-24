@@ -35,7 +35,7 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 32,
+				"line" : 39,
 				"parent" : 0
 			},
 			{
@@ -58,7 +58,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-std=gnu++20"
+					"fragment" : " -static-libgcc -static-libstdc++ -static -std=gnu++20"
 				}
 			],
 			"includes" : 
@@ -96,7 +96,11 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "",
+				"fragment" : "-static-libgcc -static-libstdc++ -static",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-static",
 				"role" : "flags"
 			},
 			{

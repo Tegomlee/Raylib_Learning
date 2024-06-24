@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = @CMakeFiles/Pong.dir/includes_CXX.rsp
 
-CXX_FLAGS = -std=gnu++20
+CXX_FLAGS =  -static-libgcc -static-libstdc++ -static -std=gnu++20
 
